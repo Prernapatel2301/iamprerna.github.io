@@ -1,0 +1,688 @@
+@media only screen and (max-width:100px) {
+    .home-page {
+        width: 500%;
+    }
+
+    .home-page .home-page-container p {
+        font-size: 15px;
+    }
+
+    .cards {
+        width: 310%;
+    }
+
+    .cards h2 {
+        font-size: 20px;
+    }
+
+    .issues {
+        width: 150%;
+    }
+
+    .issues p {
+        font-size: 12px;
+    }
+
+    .cards .card-details .card-inner-details h3 {
+        width: 150%;
+        font-size: 5px;
+    }
+
+    .cards .card-details .card-inner-details p {
+        width: 100%;
+        font-size: 5px;
+    }
+
+    .location {
+        width: 310%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer h3 {
+        font-size: 13px;
+    }
+
+    .footer p,
+    .footer li a {
+        font-size: 10px;
+    }
+
+    .footer .follow li {
+        padding: 5px 6px;
+    }
+
+   
+      
+}
+
+@media only screen and (max-width:331px) {
+    .home-page {
+        width: 100%;
+    }
+
+    .home-page .home-page-container p {
+        font-size: 15px;
+    }
+
+    .cards h2 {
+        font-size: 20px;
+    }
+
+    .issues p {
+        font-size: 12px;
+    }
+
+    .cards .card-details .card-inner-details h3 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .cards .card-details .card-inner-details p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .footer h3 {
+        font-size: 13px;
+    }
+
+    .footer p,
+    .footer li a {
+        font-size: 10px;
+    }
+
+    .footer .follow li {
+        padding: 5px 6px;
+    }
+   
+    
+    
+    .demo-card h3{
+        font-size: 25px;
+        color: var(--black);
+    }
+    
+    .demo-card span{
+        color: black;
+        font-weight: 600;
+    }
+    .demo-card p{
+        text-align: start;
+        line-height: 6vh;
+        padding: 5px 0 8px 0;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:448px) {
+    .home-page {
+        margin-bottom: -292px;
+    }
+    .faqs h4{
+        font-size: 13px;
+        font-weight: 700;
+       text-align: center;
+       color: var(--black);
+       /* color: black; */
+    }
+    .faqs span{
+        font-size: 13px;
+    }
+    .question p{
+        font-size: 16px;
+        font-weight: 600;
+       text-align:center;
+       color: var(--black);
+    }
+    .acc{
+        padding: 0 10px;
+    }
+    .demo-card{
+        margin-bottom: 60px;
+      }
+      .demo-card h2{
+        margin: 40px 0;
+        font-weight: 500;
+        font-size: 22px;
+        color: var(--black);
+        text-align: center;
+      }
+      .demo-card img{
+        height: 3cm;
+        width: 26%;
+        border-radius: 50%;
+        margin: 40px 20px;
+      }
+      .demo-card-details{
+        /* width: 100%; */
+        padding: 0 25px;
+      }
+
+      .demo-card h3{
+        font-size: 25px;
+        color: var(--black);
+    }
+    
+    .demo-card span{
+        color: black;
+        font-weight: 600;
+    }
+    .demo-card p{
+        text-align: start;
+        line-height: 6vh;
+        padding: 5px 0 8px 0;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+   
+    .home-page .home-page-container .home-page-button button {
+        margin-bottom: 10px;
+        border: var(--red);
+        outline: none;
+        cursor: pointer;
+        padding: 5px 20px;
+        font-weight: 600;
+        border-radius: 18px;
+        transition: all ease 0.3s;
+        font-size: 13px;
+    }
+    .cards .card-details .card-inner-details button {
+        padding: 5px 10px;
+        background-color: var(--red);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: var(--white);
+        cursor: pointer;
+    }
+    
+    .home-page {
+        background-repeat: no-repeat;
+        background-size: 100% 70%;
+        background-position: 0vw 13.5vw;
+        /* background-size: 100% 80%; */
+        margin-bottom: -65px;
+    }
+
+    .home-page .home-page-container h2 {
+        font-size: 15px;
+    }
+
+    .home-page .home-page-container p,
+    .home-page .home-page-container span {
+        font-size: 25px;
+    }
+
+
+    .issues-details {
+        padding: 40px 0;
+    }
+
+    .cards h2 {
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cards .card-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cards .card-details .card-inner-details {
+        width: 40%;
+        margin-bottom: 50px;
+    }
+
+    .cards .card-inner-details p {
+        line-height: 5vh;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location .location-details {
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    .location .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .follow p{
+
+        line-height: 65px;
+        position: absolute;
+        left: 20%;
+        top: 92%;
+    }
+
+    .form-container {
+        margin: 150px 0;
+    }
+
+    .faqs h4{
+        font-size: 18px;
+        font-weight: 700;
+       text-align: center;
+       color: var(--black);
+       /* color: black; */
+    }
+    .faqs span{
+        font-size: 23px;
+    }
+    .question p{
+        font-size: 16px;
+        font-weight: 600;
+       text-align:center;
+       color: var(--black);
+    }
+    .acc{
+        padding: 0 10px;
+    }
+
+    .demo-card{
+        margin-bottom: 60px;
+      }
+      .demo-card h2{
+        margin: 40px 0;
+        font-weight: 500;
+        font-size: 22px;
+        color: var(--black);
+        text-align: center;
+      }
+      .demo-card img{
+        height: 3cm;
+        width: 26%;
+        border-radius: 50%;
+        margin: 40px 20px;
+      }
+      .demo-card-details{
+        /* width: 100%; */
+        padding: 0 25px;
+      }
+      .demo-card h3{
+        font-size: 25px;
+        color: var(--black);
+    }
+    
+    .demo-card span{
+        color: black;
+        font-weight: 600;
+    }
+    .demo-card p{
+        text-align: start;
+        line-height: 6vh;
+        padding: 5px 0 8px 0;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:601px) {
+ 
+    .issues-details {
+        padding: 40px 0;
+    }
+
+    .cards h2 {
+        text-align: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .cards .card-details {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 110%;
+    }
+
+    .cards .card-details .card-inner-details {
+        width: 37%;
+        margin-bottom: 50px;
+    }
+
+    .cards .card-inner-details p {
+        line-height: 5vh;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .location .location-details {
+        text-align: center;
+        margin-bottom: 29px;
+    }
+
+    .location .map {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .copy {
+
+        line-height: 65px;
+        position: absolute;
+        left: 28%;
+        top: 92%;
+    }
+
+    .form-container {
+        margin: 60px 0;
+    }
+
+   
+  .faqs h4{
+        font-size: 17px;
+        font-weight: 700;
+       text-align: center;
+       color: var(--black);
+       
+    }
+    .faqs span{
+        font-size: 22px;
+    }
+     .question p{
+        font-size: 26px;
+        font-weight: 600;
+       text-align:center;
+       color: var(--black);
+    }
+    .acc{
+        padding: 0 10px;
+    }
+
+    .demo-card{
+        margin-bottom: 60px;
+      }
+      .demo-card h2{
+        margin: 40px 0;
+        font-weight: 500;
+        font-size: 22px;
+        color: var(--black);
+        text-align: center;
+      }
+      .demo-card img{
+        height: 3cm;
+        width: 26%;
+        border-radius: 50%;
+        margin: 40px 20px;
+      }
+      .demo-card-details{
+        /* width: 100%; */
+        padding: 0 25px;
+      }
+
+      .demo-card h3{
+        font-size: 25px;
+        color: var(--black);
+    }
+    
+    .demo-card span{
+        color: black;
+        font-weight: 600;
+    }
+    .demo-card p{
+        text-align: start;
+        line-height: 7vh;
+        padding: 5px 0 8px 0;
+        font-size: 15px;
+    }
+     
+}
+
+@media only screen and (min-width:768px) {
+
+    .cards .card-details .card-inner-details {
+        width: 28%;
+    }
+    .faqs{
+        /* background-image: url("womens.jpg"); */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:40vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: var(--black);
+       
+        /* background-image: linear-gradient(to right, transparent, var(--lwhite)), url(https://www.westsomersethealthcare.co.uk/media/content/images/women-consultation.jpg); */
+    
+    }
+    .faqs h4{
+        font-size: 20px;
+        font-weight: 700;
+       text-align: center;
+       color: var(--black);
+       /* color: black; */
+    }
+    .faqs span{
+        font-size: 28px;
+    }
+    .question p{
+        font-size: 28px;
+        font-weight: 700;
+       text-align:center;
+       color: var(--black);
+    }
+
+    .demo-card{
+        margin-bottom: 60px;
+      }
+      .demo-card h2{
+        margin: 40px 0;
+        font-weight: 500;
+        font-size: 22px;
+        color: var(--black);
+        text-align: center;
+      }
+      .demo-card img{
+        height: 2.5cm;
+        width: 20%;
+        border-radius: 50%;
+        margin: 40px 20px;
+      }
+    
+      .demo-card h3{
+        font-size: 25px;
+        color: var(--black);
+    }
+    
+    .demo-card span{
+        color: black;
+        font-weight: 600;
+    }
+    .demo-card p{
+        text-align: start;
+        line-height: 6vh;
+        padding: 5px 0 8px 0;
+        font-size: 15px;
+    }
+  
+}
+
+@media only screen and (min-width:992px) {
+    .cards .card-details .card-inner-details {
+        width: 25%;
+    }
+   
+    .faqs h4{
+        font-size: 23px;
+        font-weight: 700;
+       text-align: center;
+       color: var(--black);
+       /* color: black; */
+    }
+    .faqs span{
+        font-size: 28px;
+    }
+    .question p{
+        font-size: 32px;
+        font-weight: 700;
+       text-align:center;
+       color: var(--black);
+    }
+
+    
+  .demo-card{
+    margin-bottom: 60px;
+  }
+  .demo-card h2{
+    margin: 40px 0;
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--black);
+    text-align: center;
+  }
+  .demo-card img{
+    height: 3.5cm;
+    width: 18%;
+    border-radius: 50%;
+    margin: 40px 20px;
+  }
+
+  .demo-card h3{
+    font-size: 25px;
+    color: var(--black);
+}
+
+.demo-card span{
+    color: black;
+    font-weight: 600;
+}
+.demo-card p{
+    text-align: start;
+    line-height: 6vh;
+    padding: 5px 0 8px 0;
+    font-size: 15px;
+}
+ 
+   
+}
+
+@media only screen and (min-width:1200px) {
+    .cards .card-details .card-inner-details {
+        width: 20%;
+    }
+
+    .footer {
+        /* padding: 80px 100px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .faqs h4{
+        font-size: 27px;
+        font-weight: 800;
+       text-align: center;
+       color: var(--black);
+       /* color: black; */
+    }
+    .faqs span{
+        font-size: 36px;
+    }
+    .question p{
+        font-size: 36px;
+        font-weight: 700;
+       text-align:center;
+       color: var(--black);
+    }
+    .acc{
+        padding: 0 120px;
+    }
+
+  
+    .demo-card{
+        margin-bottom: 60px;
+      }
+      .demo-card h2{
+        margin: 40px 0;
+        font-weight: 500;
+        font-size: 35px;
+        color: var(--black);
+        text-align: center;
+      }
+      .demo-card img{
+        height: 3cm;
+        width: 17%;
+        border-radius: 50%;
+        margin: 40px 20px;
+      }
+    
+      .demo-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* align-items: space-between; */
+        padding: 10px 240px;
+      }
+    .demo-card .demo-card-inner-details{
+        padding: 20px;
+    }
+      .demo-card .demo-card-inner-details:hover {
+        /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
+        border: none;
+    border-radius: 15px;
+    }
+
+    .demo-card h3{
+        font-size: 25px;
+        color: var(--black);
+    }
+    
+    .demo-card span{
+        color: black;
+        font-weight: 600;
+    }
+    .demo-card p{
+        text-align: start;
+        line-height: 6vh;
+        padding: 5px 0 8px 0;
+        font-size: 15px;
+    }
+}

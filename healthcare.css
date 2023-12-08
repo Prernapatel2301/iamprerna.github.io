@@ -1,0 +1,551 @@
+
+/* * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+} */
+
+ul {
+    list-style: none;
+    /* font-family: sans-serif; */
+}
+
+:root {
+    --white: #fff;
+    /* --red:#ff5361; */
+    --red: teal;
+    --black: #555;
+    --bblack: #999;
+    --lwhite: #f6f6f6;
+}
+
+.navbar-brand img{
+    margin: 0 35px 0 35px;
+
+}
+.navbar{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-item a{
+    font-size: 16px;
+    font-weight: 600;
+    /* margin-left: 30px; */
+    color: #707070;
+}
+.nav-item a:hover {
+    color: var(--red);
+    transition: 0.5s ease;
+}
+.d-flex .btn{
+    background-color:var(--red);
+    color: var(--white);
+}
+.d-flex .btn:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+.d-flex .form-control{
+ box-shadow:none;
+ /* border: none; */
+ outline: none;
+}
+
+/* .......home page........ */
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, transparent, var(--lwhite)), url(https://www.westsomersethealthcare.co.uk/media/content/images/women-consultation.jpg);
+
+}
+
+.home-page .home-page-container {
+    text-align: center;
+}
+
+.home-page .home-page-container h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--black);
+}
+
+.home-page .home-page-container p {
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.home-page .home-page-container span {
+    font-size: 36px;
+    color: var(--red);
+    font-weight: 700;
+}
+
+.home-page .home-page-container .home-page-button {
+    text-align: center;
+}
+
+.home-page .home-page-container .home-page-button button {
+    margin-bottom: 10px;
+    border: var(--red);
+    outline: none;
+    cursor: pointer;
+    padding: 7px 23px;
+    font-weight: 600;
+    border-radius: 18px;
+    transition: all ease 0.3s;
+}
+
+.button-1 {
+    margin-right: 15px;
+    background-color: var(--red);
+    border: 1.5px solid var(--red);
+    color: var(--white);
+}
+
+.home-page .home-page-container .home-page-button button:hover {
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+}
+
+/* ....issues.... */
+
+.issues {
+    background-color: var(--lwhite);
+    /* background-color: #1c2331; */
+    padding: 40px 80px;
+}
+
+.issues .issues-details h2{
+    margin-bottom: 25px;
+    font-size: 42px;
+    font-weight: 500;
+    /* color: var(--lwhite); */
+    color: var(--black);
+}
+
+.issues .issues-details hr {
+    color: var(--bblack);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.issues .issues-details h5 {
+    color: var(--black);
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+/* .issues .issues-details p {
+    color: #999;
+} */
+.issues-inn-detailes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 60px;
+}
+
+.issues-inner-details {
+    padding: 10px 0px 20px 10px;
+    cursor: pointer;
+}
+
+.issues-inner-details:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease;
+}
+
+/* ...cards.... */
+
+
+.cards {
+    text-align: center;
+    margin-bottom: 60px;
+    overflow: hidden;
+   
+}
+
+.cards h2 {
+    margin: 40px 0;
+    font-weight: 500;
+    font-size: 35px;
+    color: var(--black);
+}
+
+.cards .card-details {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 60px;
+    /* width: 135%; */
+}
+
+.cards .card-details img {
+    height: 35vh;
+    width: 100%;
+    border-radius: 10px;
+    margin: 9px 0;
+}
+
+.cards .card-details .card-inner-details {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.cards .card-inner-details {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: none;
+
+}
+
+.cards .card-details .card-inner-details h3 {
+    font-size: 20px;
+}
+
+.cards .card-details .card-inner-details span {
+    color: black;
+    font-weight: 600;
+}
+
+.cards .card-details p {
+    text-align: start;
+    line-height: 3vh;
+    padding: 5px 0 8px 0;
+    font-size: 13px;
+}
+
+.cards .card-details .card-inner-details button {
+    padding: 8px 10px;
+    background-color: var(--red);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.cards .card-details .card-inner-details button a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+/* ....location.... */
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--lwhite);
+    padding: 60px 0;
+}
+
+.location .location-details h2 {
+    padding: 10px 0;
+}
+
+.location .location-details p {
+    font-size: 13px;
+}
+
+.location .map iframe {
+    width: 450px;
+    height: 270px;
+}
+
+.location .map iframe {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* .....footer.... */
+
+
+.footer {
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--white);
+    background-color: #1c2331;
+}
+
+.footer h3 {
+    color: var(--white);
+    margin: 20px 0;
+    font-size: 20px;
+    padding-bottom: 7px;
+    border-bottom: 1.5px solid var(--red);
+}
+
+.footer a {
+    color: var(--white);
+    font-size: 13px;
+    text-decoration: none;
+    margin-left: 25px;
+    line-height: 5vh;
+    transition: ease 0.3s;
+}
+
+.footer a:hover {
+    color: var(--red);
+}
+
+.footer .follow ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .follow li {
+    background-color: var(--black);
+    padding: 10px 12px;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+ .footer .copy{
+text-align: center;
+}
+
+.footer {
+    position: relative;
+}
+.footer  .follow p {
+
+    /* line-height: 65px; */
+    position: absolute;
+    left: 40%;
+    top: 90%;
+    /* text-align: center; */
+} 
+
+/* ....form....... */
+
+.form-container {
+    /* background:linear-gradient(to bottom, var(--red),#fff); */
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #efe6dd; */
+    /* background-color: #999; */
+
+}
+
+.form-box {
+    /* background-color:  #e8beac; */
+    /* background-color: #efe6dd; */
+    /* background-color: #dad7d7; */
+    /* background-color: var(--bblack); */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 15px 50px;
+}
+
+.form-box label {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text input {
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1.5px solid var(--black);
+    background-color: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: var(--black);
+}
+
+/* ......button....... */
+.form-text button {
+    background-color: var(--red);
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 7px 23px;
+    margin-top: 15px;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* .......inner-form..... */
+.form-inner-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-inner-text input {
+    width: 52%;
+}
+
+.form-inner-text select {
+    outline: none;
+    border: none;
+    width: 40%;
+    border-bottom: 1.5px solid var(--black);
+    font-weight: 600;
+    padding: 10px 0;
+    background-color: transparent;
+}
+
+.form-age {
+    width: 35%;
+}
+
+/* ......faqs...... */
+
+.faqs{
+    /* background-image: url("womens.jpg"); */
+    background-image: url("https://img.medscape.com/thumbnail_library/dt_150713_doctor_document_report_test_800x600.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--black);
+   
+    /* background-image: linear-gradient(to right, transparent, var(--lwhite)), url(https://www.westsomersethealthcare.co.uk/media/content/images/women-consultation.jpg); */
+}
+.faqs h4{
+    font-size: 27px;
+    font-weight: 800;
+   text-align: center;
+   color: var(--black);
+}
+.faqs span{
+    font-size: 36px;
+}
+.question p{
+    font-size: 36px;
+    font-weight: 700;
+   text-align:center;
+   color: var(--black);
+}
+.acc{
+    padding: 0 120px;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: var(--black);
+  }
+  
+  .dropdown-content :hover{
+       color:var(--red);
+  }
+  .nav-link:hover .dropdown-content {
+    display: block;
+  }
+
+
+  /* .....demo-card.... */
+
+  .demo-card{
+    margin-bottom: 60px;
+  }
+  .demo-card h2{
+    margin: 40px 0;
+    font-weight: 500;
+    font-size: 35px;
+    color: var(--black);
+    text-align: center;
+  }
+  .demo-card img{
+    height: 3cm;
+    width: 17%;
+    border-radius: 50%;
+    margin: 40px 20px;
+  }
+
+  .demo-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: space-between; */
+    padding: 10px 240px;
+  }
+.demo-card .demo-card-inner-details{
+    padding: 20px;
+}
+  .demo-card .demo-card-inner-details:hover {
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
+    border: none;
+border-radius: 15px;
+}
+
+.demo-card h3{
+    font-size: 25px;
+    color: var(--black);
+}
+
+.demo-card span{
+    color: black;
+    font-weight: 600;
+}
+.demo-card p{
+    text-align: start;
+    line-height: 3vh;
+    padding: 5px 0 8px 0;
+    font-size: 14px;
+}
+
+/* .....consult...... */
+
+.demo-card .d-card{
+    /* background-image: url("womens.jpg"); */
+
+    /* background-image: url("https://www.throughlinegroup.com/wp-content/uploads/2019/10/iStock-1071914856-1024x410.jpg"); */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    color: var(--black);
+    background-image: url(https://www.throughlinegroup.com/wp-content/uploads/2019/10/iStock-1071914856-1024x410.jpg);
+    background-position: center;
+    background-size: cover;  
+}
